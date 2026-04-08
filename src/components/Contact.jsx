@@ -26,8 +26,7 @@ export default function Contact() {
 
   return (
     <section id="contact" className="py-24 relative" ref={sectionRef}>
-      {/* Background accent */}
-      <div className="absolute inset-0 bg-gradient-to-b from-transparent via-gh-accent-emphasis/[0.02] to-transparent" />
+
       
       <div className="relative max-w-3xl mx-auto px-6 text-center">
         {/* Section header */}
@@ -42,7 +41,7 @@ export default function Contact() {
 
         <div className={`transition-all duration-700 delay-200 ${isInView ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
           {/* Terminal-style contact card */}
-          <div className="rounded-xl border border-gh-border bg-gh-bg-secondary/50 overflow-hidden animate-pulse-glow">
+          <div className="rounded-xl border border-gh-border bg-gh-bg-secondary/50 overflow-hidden">
             {/* Terminal header */}
             <div className="flex items-center gap-2 px-4 py-3 border-b border-gh-border bg-gh-bg-secondary/80">
               <div className="w-3 h-3 rounded-full bg-gh-red/70" />

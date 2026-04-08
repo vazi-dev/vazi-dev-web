@@ -124,8 +124,8 @@ function FeaturedProject({ project, isInView }) {
       }`}
       style={{ transitionDelay: '200ms' }}
     >
-      {/* Gradient top bar */}
-      <div className={`h-1 bg-gradient-to-r ${project.gradient} opacity-60 group-hover:opacity-100 transition-opacity`} />
+      {/* Top bar removed */}
+
 
       <div className="p-6">
         {/* Featured badge */}
