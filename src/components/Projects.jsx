@@ -244,8 +244,8 @@ function ProjectCard({ project, index, isInView }) {
       }`}
       style={{ transitionDelay: `${300 + index * 100}ms` }}
     >
-      {/* Gradient top bar */}
-      <div className={`h-1 bg-gradient-to-r ${project.gradient} opacity-60 group-hover:opacity-100 transition-opacity`} />
+
+
 
       <div className="p-6">
         {/* Icon & Title */}
